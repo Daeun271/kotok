@@ -57,6 +57,11 @@ python3 -m venv .venv
 pip install -r requirements.txt
 ```
 
+## Installation from pip
+```bash
+pip install kotok
+```
+
 ## Train the classification models
 
 To run kotok, the classification models need to be trained. If not using pre-trained model files, follow the instructions below to generate the models from scratch.
