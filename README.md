@@ -157,8 +157,8 @@ analyzer = Analyzer(
     lemma_data="<lemmatization data directory>",
 )
 
-result = analyzer.analyze("안녕하세요.")
-print(result) # [안녕/NNG, 하/XSA, 세요/EF, ./SF]
+result = analyzer.analyze("아버지갖방에들어가신다.")
+print(result) # [아버지/NNG, 가/JKS, 방/NNG, 에/JKB, 들어가/VV, 신/EP, 다/EF]
 ```
 
 Detailed information on the `Analyzer` class can be found by checking the docstrings of the class.
